@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\Week2Day2\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+C:\Users\student\Documents\GitHub\Week2Day2\Restaurant\Restaurant\bin\Debug\Restaurant.exe
+C:\Users\student\Documents\GitHub\Week2Day2\Restaurant\Restaurant\bin\Debug\Restaurant.pdb
+C:\Users\student\Documents\GitHub\Week2Day2\Restaurant\Restaurant\obj\Debug\Restaurant.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\Week2Day2\Restaurant\Restaurant\obj\Debug\Restaurant.exe
+C:\Users\student\Documents\GitHub\Week2Day2\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
