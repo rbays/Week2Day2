@@ -18,22 +18,33 @@ namespace RestaurantEncapsulationExercise
                 this.price = price;
                 this.cost = cost;
             }
-            public static decimal cookMeal(Meal meal, decimal balance)
+            public static void cookMeal(Meal meal)
             {
                 Console.WriteLine("The meal {0} has been cooked.", meal.name);
-                balance = balance + meal.price;
-                balance = balance - meal.cost;
-                return balance;
-            }
-            public void takeOrder()
-            {
-                Console.WriteLine("The meal {0} has been ordered.", this.name);
             }
         }
-       
+        public class Order
+        {
+            public void takeOrder(Meal meal)
+            {
+                Console.WriteLine("The meal {0} has been ordered.", meal.name);
+            }
+        }
+        public class Accounts
+        {
+            public decimal balance = 0;
+            public void updateBalance(Meal meal)
+            {
+                this.balance += (meal.price - meal.cost);
+            }
+            public void profitToday()
+            {
+                Console.WriteLine("Tonight the restaurant has made £{0}", this.balance.ToString());
+            }
+        }
         static void Main(string[] args)
         {
-            decimal balance = 0;
+            Accounts account = new Accounts();
             //add some meals data
             Meal steak = new Meal();
             steak.addMeal("steak", 20.00M, 5.00M);
@@ -41,11 +52,16 @@ namespace RestaurantEncapsulationExercise
             fajitas.addMeal("fajitas", 12.00M, 2.00M);
             Meal pumpkinRisotto = new Meal();
             pumpkinRisotto.addMeal("pumpkinRisotto", 10.00M, 1.00M);
-            steak.takeOrder();
-            balance = Meal.cookMeal(steak, balance);
-            pumpkinRisotto.takeOrder();
-            balance = Meal.cookMeal(pumpkinRisotto, balance);
-            Console.WriteLine("Tonight in the restaurant, we made £{0:N2}.", balance);
+            Order order1 = new Order();
+            order1.takeOrder(steak);
+            Meal.cookMeal(steak);
+            account.updateBalance(steak);
+
+            Order order2 = new Order();
+            order2.takeOrder(pumpkinRisotto);
+            Meal.cookMeal(pumpkinRisotto);
+            account.updateBalance(pumpkinRisotto);
+            account.profitToday();
         }
     }
 }
