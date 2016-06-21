@@ -1,0 +1,2 @@
+C:\Users\student\Documents\GitHub\Week2Day2\Library\Library\bin\Debug\Library.exe.config
+C:\Users\student\Documents\GitHub\Week2Day2\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache

@@ -1,0 +1,103 @@
+Object-oriented programming – main principles
+Review of knowledge
+Name:__Robert_Bays______________                     Date:___21/06/2016___
+ 
+What is object-oriented programming?
+ 
+Programming using objects, classes of objects can be declared and instances of these classes can be created as and when needed with properties and methods. Object orientation is better in many ways that function orientation as because objects can be seen as discrete packages which for the most part are (relatively) independent.
+ 
+ 
+Why is it useful?
+ 
+It separates code into manageable chunks which ideally each encapsulate an idea and is therefore hopefully easier to understand.
+ 
+ 
+Please read the statement and circle the OOP concept that it demonstrates:
+ 
+In a program for managing bank accounts, fees and charges are applied differently to different types of bank account.
+ 
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism xxxx
+ 
+In a program for managing hire cars, the car class contains the attributes Make, Model and Registration Number but no information about whether the upholstery is synthetic or leather.
+ 
+Abstraction xxxx
+Encapsulation
+Inheritance
+Polymorphism
+ 
+In a personnel management program, there is a base class of Person with a sub-class of Employee.  Employee has a sub-class of Manager.
+ 
+Abstraction 
+Encapsulation
+Inheritance xxxx
+Polymorphism
+ 
+In a program for generating checklists for vehicle maintenance, different lists are generated for motorcycles, cars and vans.
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism xxxx
+ 
+In a program for managing the list of patients in a GP surgery, the attribute of Volunteer has been taken out of the Patient class and a new class of Volunteer has been created.
+ 
+Abstraction
+Encapsulation xxxx
+Inheritance
+Polymorphism
+ 
+A program for recording details of the collection in a museum, is structured to reflect the fact that clothes, jewellery and tools are all exhibits.
+ 
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism xxxx
+ 
+A payroll program has a class of Salary, in which the Payment attribute has been made private.
+ 
+Abstraction xxxx
+Encapsulation
+Inheritance
+Polymorphism
+ 
+An expenses management program only recorded the total for each expense claim, with no information about whether VAT had been charged for each expense, making it impossible for the company to reclaim VAT correctly.  An attribute for the VAT amount was added to the Expense class.
+Abstraction xxxx
+Encapsulation
+Inheritance
+Polymorphism
+ 
+ 
+ 
+ 
+Object-oriented programming – main principles
+Review of knowledge
+Name:__________Robert_Bays____________                     Date:__21/06/2016__
+For bonus points:
+Please give an example of each of the following OOP concepts:
+(If you wish, you can use diagrams.)
+ 
+An object, with attributes and behaviours
+ 
+My Car, it is silver, it goes "vroom" and it has 5 doors.
+ 
+ 
+Using abstraction
+ 
+When calculating the area of a shape, I need to know the type of shape and the dimensions, I don't need to know what colour it is.
+ 
+ 
+Using encapsulation
+ 
+In a Lego set, the pieces for each section are separated into bags so that each section can be completed separately and then combined at the end as opposed to having it all jumbled together which would make it much more difficult to manage the part that you need.
+
+ 
+Using inheritance
+ 
+A toy soldier is a type of toy and would have all attributes of a toy, and so could inherit from the toy class, however not all toys have weapons so that attribute would need to be part of the toy soldier child class. 
+ 
+ 
+Using polymorphism
+
+Getting tea for people, the virtual method would be team, milk no sugar, however individual people might like tea a different way so I would need to override the method for getting them tea eg. add sugar, green tea, no milk. 
